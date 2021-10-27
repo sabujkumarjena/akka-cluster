@@ -1,4 +1,4 @@
-/*
+
 name := "akka-cluster"
 
 version := "0.1"
@@ -18,9 +18,9 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.1.4" % Test
 
 )
-*/
-//
 
+//
+/*
 import com.typesafe.sbt.SbtMultiJvm.multiJvmSettings
 import com.typesafe.sbt.SbtMultiJvm.MultiJvmKeys.MultiJvm
 
@@ -51,5 +51,5 @@ lazy val `akka-cluster` = project
 
   )
   .configs (MultiJvm)
-
+*/
 

@@ -272,7 +272,7 @@ java.net.BindException: [/127.0.0.1:25251] Address already in use
 [2021-10-24 00:35:20,014] [INFO] [akka.cluster.Cluster] [] [ClusterSystem-akka.actor.default-dispatcher-3] [Cluster(akka://ClusterSystem)] - Cluster Node [akka://ClusterSystem@127.0.0.1:25251] - Started up successfully
 [2021-10-24 00:35:20,040] [INFO] [akka.cluster.Cluster] [] [ClusterSystem-akka.actor.default-dispatcher-3] [Cluster(akka://ClusterSystem)] - Cluster Node [akka://ClusterSystem@127.0.0.1:25251] - No downing-provider-class configured, manual cluster downing required, see https://doc.akka.io/docs/akka/current/typed/cluster.html#downing
 [2021-10-24 00:35:20,569] [ERROR] [akka.remote.artery.Encoder] [] [ClusterSystem-akka.actor.default-dispatcher-3] [Encoder(akka://ClusterSystem)] - Failed to serialize message [akka.remote.artery.OutboundHandshake$HandshakeReq].
-java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
+java.lang.ClassNotFoundException: pat2_clustering.part3_transformation.CborSerializable
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
@@ -321,7 +321,7 @@ java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
 	at part2_clustering.ClusteringBasics$.main(ClusteringBasics.scala:8)
 	at part2_clustering.ClusteringBasics.main(ClusteringBasics.scala)
 [2021-10-24 00:35:20,569] [ERROR] [akka.remote.artery.Encoder] [] [ClusterSystem-akka.actor.default-dispatcher-3] [Encoder(akka://ClusterSystem)] - Failed to serialize message [akka.remote.artery.OutboundHandshake$HandshakeReq].
-java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
+java.lang.ClassNotFoundException: pat2_clustering.part3_transformation.CborSerializable
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
@@ -370,7 +370,7 @@ java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
 	at part2_clustering.ClusteringBasics$.main(ClusteringBasics.scala:8)
 	at part2_clustering.ClusteringBasics.main(ClusteringBasics.scala)
 [2021-10-24 00:35:20,570] [ERROR] [akka.remote.artery.Encoder] [] [ClusterSystem-akka.actor.default-dispatcher-3] [Encoder(akka://ClusterSystem)] - Failed to serialize message [akka.remote.artery.OutboundHandshake$HandshakeReq].
-java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
+java.lang.ClassNotFoundException: pat2_clustering.part3_transformation.CborSerializable
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
@@ -419,7 +419,7 @@ java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
 	at part2_clustering.ClusteringBasics$.main(ClusteringBasics.scala:8)
 	at part2_clustering.ClusteringBasics.main(ClusteringBasics.scala)
 [2021-10-24 00:35:20,570] [ERROR] [akka.remote.artery.Encoder] [] [ClusterSystem-akka.actor.default-dispatcher-3] [Encoder(akka://ClusterSystem)] - Failed to serialize message [akka.remote.artery.OutboundHandshake$HandshakeReq].
-java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
+java.lang.ClassNotFoundException: pat2_clustering.part3_transformation.CborSerializable
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
@@ -481,7 +481,7 @@ java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
 [2021-10-24 00:36:01,489] [INFO] [akka.cluster.Cluster] [] [ClusterSystem-akka.actor.default-dispatcher-3] [Cluster(akka://ClusterSystem)] - Cluster Node [akka://ClusterSystem@127.0.0.1:25251] - Started up successfully
 [2021-10-24 00:36:01,516] [INFO] [akka.cluster.Cluster] [] [ClusterSystem-akka.actor.default-dispatcher-3] [Cluster(akka://ClusterSystem)] - Cluster Node [akka://ClusterSystem@127.0.0.1:25251] - No downing-provider-class configured, manual cluster downing required, see https://doc.akka.io/docs/akka/current/typed/cluster.html#downing
 [2021-10-24 00:36:02,038] [ERROR] [akka.remote.artery.Encoder] [] [ClusterSystem-akka.actor.default-dispatcher-3] [Encoder(akka://ClusterSystem)] - Failed to serialize message [akka.remote.artery.OutboundHandshake$HandshakeReq].
-java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
+java.lang.ClassNotFoundException: pat2_clustering.part3_transformation.CborSerializable
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
@@ -530,7 +530,7 @@ java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
 	at part2_clustering.ClusteringBasics$.main(ClusteringBasics.scala:8)
 	at part2_clustering.ClusteringBasics.main(ClusteringBasics.scala)
 [2021-10-24 00:36:02,039] [ERROR] [akka.remote.artery.Encoder] [] [ClusterSystem-akka.actor.default-dispatcher-3] [Encoder(akka://ClusterSystem)] - Failed to serialize message [akka.remote.artery.OutboundHandshake$HandshakeReq].
-java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
+java.lang.ClassNotFoundException: pat2_clustering.part3_transformation.CborSerializable
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
@@ -579,7 +579,7 @@ java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
 	at part2_clustering.ClusteringBasics$.main(ClusteringBasics.scala:8)
 	at part2_clustering.ClusteringBasics.main(ClusteringBasics.scala)
 [2021-10-24 00:36:02,039] [ERROR] [akka.remote.artery.Encoder] [] [ClusterSystem-akka.actor.default-dispatcher-3] [Encoder(akka://ClusterSystem)] - Failed to serialize message [akka.remote.artery.OutboundHandshake$HandshakeReq].
-java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
+java.lang.ClassNotFoundException: pat2_clustering.part3_transformation.CborSerializable
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
@@ -628,7 +628,7 @@ java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
 	at part2_clustering.ClusteringBasics$.main(ClusteringBasics.scala:8)
 	at part2_clustering.ClusteringBasics.main(ClusteringBasics.scala)
 [2021-10-24 00:36:02,039] [ERROR] [akka.remote.artery.Encoder] [] [ClusterSystem-akka.actor.default-dispatcher-3] [Encoder(akka://ClusterSystem)] - Failed to serialize message [akka.remote.artery.OutboundHandshake$HandshakeReq].
-java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
+java.lang.ClassNotFoundException: pat2_clustering.part3_transformation.CborSerializable
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
@@ -690,7 +690,7 @@ java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
 [2021-10-24 00:40:35,965] [INFO] [akka.cluster.Cluster] [] [ClusterSystem-akka.actor.default-dispatcher-3] [Cluster(akka://ClusterSystem)] - Cluster Node [akka://ClusterSystem@127.0.0.1:25251] - Started up successfully
 [2021-10-24 00:40:36,008] [INFO] [akka.cluster.sbr.SplitBrainResolver] [] [ClusterSystem-akka.actor.default-dispatcher-5] [akka://ClusterSystem/system/cluster/core/daemon/downingProvider] - SBR started. Config: strategy [KeepMajority], stable-after [20 seconds], down-all-when-unstable [15 seconds], selfUniqueAddress [akka://ClusterSystem@127.0.0.1:25251#5684469820272652568], selfDc [default].
 [2021-10-24 00:40:36,531] [ERROR] [akka.remote.artery.Encoder] [] [ClusterSystem-akka.actor.default-dispatcher-3] [Encoder(akka://ClusterSystem)] - Failed to serialize message [akka.remote.artery.OutboundHandshake$HandshakeReq].
-java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
+java.lang.ClassNotFoundException: pat2_clustering.part3_transformation.CborSerializable
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
@@ -739,7 +739,7 @@ java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
 	at part2_clustering.ClusteringBasics$.main(ClusteringBasics.scala:8)
 	at part2_clustering.ClusteringBasics.main(ClusteringBasics.scala)
 [2021-10-24 00:40:36,531] [ERROR] [akka.remote.artery.Encoder] [] [ClusterSystem-akka.actor.default-dispatcher-3] [Encoder(akka://ClusterSystem)] - Failed to serialize message [akka.remote.artery.OutboundHandshake$HandshakeReq].
-java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
+java.lang.ClassNotFoundException: pat2_clustering.part3_transformation.CborSerializable
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
@@ -788,7 +788,7 @@ java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
 	at part2_clustering.ClusteringBasics$.main(ClusteringBasics.scala:8)
 	at part2_clustering.ClusteringBasics.main(ClusteringBasics.scala)
 [2021-10-24 00:40:36,532] [ERROR] [akka.remote.artery.Encoder] [] [ClusterSystem-akka.actor.default-dispatcher-3] [Encoder(akka://ClusterSystem)] - Failed to serialize message [akka.remote.artery.OutboundHandshake$HandshakeReq].
-java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
+java.lang.ClassNotFoundException: pat2_clustering.part3_transformation.CborSerializable
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
@@ -837,7 +837,7 @@ java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
 	at part2_clustering.ClusteringBasics$.main(ClusteringBasics.scala:8)
 	at part2_clustering.ClusteringBasics.main(ClusteringBasics.scala)
 [2021-10-24 00:40:36,532] [ERROR] [akka.remote.artery.Encoder] [] [ClusterSystem-akka.actor.default-dispatcher-3] [Encoder(akka://ClusterSystem)] - Failed to serialize message [akka.remote.artery.OutboundHandshake$HandshakeReq].
-java.lang.ClassNotFoundException: pat2_clustering.CborSerializable
+java.lang.ClassNotFoundException: pat2_clustering.part3_transformation.CborSerializable
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)

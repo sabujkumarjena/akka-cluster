@@ -25,6 +25,7 @@ object ClusteringBasics  {
 
     // Create an Akka system
     ActorSystem[Nothing](RootBehavior(), "ClusterSystem", config) //all the actor system in the cluster must have same name
+
   }
   def main(args: Array[String]): Unit = {
     val ports =

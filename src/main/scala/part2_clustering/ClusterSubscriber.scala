@@ -15,10 +15,12 @@ object ClusterSubscriber {
 
   def apply(): Behavior[Event] = Behaviors.setup { ctx =>
     val memberEventAdapter: ActorRef[MemberEvent] = ctx.messageAdapter(MemberChange)
-    Cluster(ctx.system).subscriptions ! Subscribe(memberEventAdapter, classOf[MemberEvent]) //Subscribe(subscriber, eventClass)
+    val cluster = Cluster(ctx.system)
+    cluster.subscriptions ! Subscribe(memberEventAdapter, classOf[MemberEvent]) //Subscribe(subscriber, eventClass)
 
     val reachabilityAdapter: ActorRef[ReachabilityEvent] = ctx.messageAdapter(ReachabilityChange)
-    Cluster(ctx.system).subscriptions ! Subscribe(reachabilityAdapter, classOf[ReachabilityEvent])
+    cluster.subscriptions ! Subscribe(reachabilityAdapter, classOf[ReachabilityEvent])
+
 
     Behaviors.receiveMessage { message =>
       message match {

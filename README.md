@@ -9,3 +9,4 @@ taken from official [akka-documentation](http://akka.io)
 
 No need to do anything else, as the IDE will take care to download and apply the appropriate library dependencies.
 
+"runMain part2_clustering.ClusteringBasics 0"
